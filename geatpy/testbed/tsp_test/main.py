@@ -6,7 +6,8 @@ from tsp import TestProblem
 
 if __name__ == '__main__':
     """===============================实例化问题对象============================"""
-    problem = TestProblem('att48')        # 生成问题对象
+    #problem = TestProblem('att48')        # 生成问题对象
+    problem = TestProblem('st70')        # 生成问题对象
     """=================================种群设置==============================="""
     Encoding = 'P'                        # 编码方式
     NIND = 100                            # 种群规模
